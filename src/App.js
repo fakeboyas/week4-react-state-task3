@@ -1,39 +1,41 @@
-import React from 'react';
+import React from "react";
 
-import Table from './components/Table/Table';
+import Table from "./components/Table/Table";
 
-import './App.css';
+import "./App.css";
+import TableBody from "./components/TableBody/TableBody";
 
 function App() {
     const students = [
         {
-            name: 'Yono',
+            name: "Yono",
             age: 17,
-            address: 'Serang',
-            sex: 'male',
+            address: "Serang",
+            sex: "male",
         },
         {
-            name: 'Icha',
+            name: "Icha",
             age: 20,
-            address: 'Pekanbaru',
-            sex: 'female',
+            address: "Pekanbaru",
+            sex: "female",
         },
         {
-            name: 'Ahmad',
+            name: "Ahmad",
             age: 30,
-            address: 'Jakarta',
-            sex: 'male',
+            address: "Jakarta",
+            sex: "male",
         },
         {
-            name: 'Lily',
+            name: "Lily",
             age: 15,
-            address: 'Bandung',
-            sex: 'female',
+            address: "Bandung",
+            sex: "female",
         },
     ];
+
     return (
-        <div className='App'>
-            <Table />
+        <div className="App">
+            <Table students={students} />
         </div>
     );
 }
