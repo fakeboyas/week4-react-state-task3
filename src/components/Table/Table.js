@@ -21,7 +21,6 @@ class Table extends Component {
                 <table>
                     <TableHead />
                     {dataTable}
-                    <TableBody />
                 </table>
             </div>
         );
