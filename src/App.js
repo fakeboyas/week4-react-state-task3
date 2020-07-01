@@ -3,7 +3,6 @@ import React from "react";
 import Table from "./components/Table/Table";
 
 import "./App.css";
-import TableBody from "./components/TableBody/TableBody";
 
 function App() {
     const students = [
